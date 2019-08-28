@@ -1,0 +1,23 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /favicon
+  static_dir: favicon
+
+- url: /css
+  static_dir: css
+
+- url: /images
+  static_dir: images
+
+- url: /js
+  static_dir: js
+
+- url: /.*
+  script: main.app
+
+libraries:
+- name: jinja2
+  version: latest
