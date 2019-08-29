@@ -92,8 +92,8 @@ body {
     nav .brand-logo {
         left: 50%;
         -webkit-transform: translateX(-50%);
-                transform: translateX(-50%);
-      }
+        transform: translateX(-50%);
+    }
 }
 
 .center-brand {
@@ -289,7 +289,10 @@ canvas {
 
 @media only screen and (max-width: 500px) {
     .what-we-do-description {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        padding-left: 25px;
+        padding-right: 25px;
+        line-height: 1.75rem;
     }
 }
 
@@ -331,7 +334,7 @@ canvas {
 
 @media only screen and (max-width: 500px) {
     .round-divs {
-        height: 75px;
+        height: 65px;
         margin-top: 20px;
         margin-bottom: 25px;
     }
@@ -371,6 +374,20 @@ canvas {
     height: calc(5/8*100vw);
     display: flex;
     align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+    #owl-demo .item img {
+        display: block;
+        width: auto!important;
+        background-position: center!important;
+        object-fit: cover!important;
+        height: calc(3/8*100vh) !important;
+    }
+
+    .gallery-section {
+        height: calc(5/8*100vh);
+    }
 }
 
 .owl-theme .owl-dots {
