@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!-- OwlCarousel2 -->
+    <link rel="stylesheet" href="../css/libs/OwlCarousel2-2.3.4/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/libs/OwlCarousel2-2.3.4/owl.theme.default.min.css">
+
     <!-- Open Sans Font -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
@@ -65,7 +69,7 @@
                 <a href="#Home" class="brand-logo">
                     <div class="center-brand">
                         <img class="dsc-logo" src="../images/dsc-logo-2.png">
-                        <span class="dsc-brand">&nbsp;&nbsp;DSC CSUSM</span>
+                        <span class="dsc-brand hide-on-small-only">&nbsp;&nbsp;DSC CSUSM</span>
                     </div>
                 </a>
                 <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -130,8 +134,8 @@
 
         <!-- ABOUT US START -->
         <div id="AboutUs" class="about-section scrollspy">
-            <div class="row flex">
-                <div class="col s5">
+            <div class="row about-section-flex">
+                <div class="col s10 offset-s1 m10 offset-m1 l5">
                     <div class="about-text-area">
                         <h2 class="about-title text-white">About DSC</h2>
                         <h4 class="description text-white">Developer Student Club (DSC) is a Google Developers
@@ -152,7 +156,7 @@
                             href="https://developers.google.com/community/dsc/">Learn More</a>
                     </div>
                 </div>
-                <div class="col s7 about-section-img" style="overflow:hidden">
+                <div class="col hide-on-small-only l7 about-section-img" style="overflow:hidden">
                 </div>
             </div>
         </div>
@@ -160,22 +164,61 @@
 
         <!-- WHAT WE DO START -->
         <div class="what-we-do-section">
-
+            <div class="container">
+                <h1 class="what-we-do-title">What we do?</h1>
+                <h3 class="what-we-do-description">Google Developer Clubs can take many forms - from just a few people getting together to watch some
+                    videos, to large gatherings with demos, tech talks, hackathons and conferences. We work on various
+                    technical domains and try to make use of Google Technologies to empower the audience around us.
+                </h3>
+            </div>
         </div>
         <!-- WHAT WE DO END -->
 
         <!-- DOMAINS START -->
         <div class="domains-section">
-
+            <div class="container">
+                <h1 class="domains-title">Domains</h1>
+                <div class="row">
+                    <div class="col s8 offset-s2 m5 bg-blue round-divs">
+                        <h3 class="domains-type">Business</h3>
+                    </div>
+                    <div class="col s8 offset-s2 m5 offset-m2 bg-red round-divs">
+                        <h3 class="domains-type">Technical</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s8 offset-s2 m5 bg-yellow round-divs">
+                        <h3 class="domains-type">Public Relations and Documentation</h3>
+                    </div>
+                    <div class="col s8 offset-s2 m5 offset-m2 bg-green round-divs">
+                        <h3 class="domains-type">Creatives and Photography</h3>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- DOMAINS END -->
 
         <!-- GALLERY START -->
         <div class="gallery-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m8 offset-m1 x17 offset-xl1">
-
+            <div class="container carousel-container">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="../images/events/1.JPG">
+                    </div>
+                    <div class="item">
+                        <img src="../images/events/2.JPG">
+                    </div>
+                    <div class="item">
+                        <img src="../images/events/3.JPG">
+                    </div>
+                    <div class="item">
+                        <img src="../images/events/4.JPG">
+                    </div>
+                    <div class="item">
+                        <img src="../images/events/5.JPG">
+                    </div>
+                    <div class="item">
+                        <img src="../images/events/6.JPG">
                     </div>
                 </div>
             </div>
@@ -189,7 +232,7 @@
                     <div class="col m10 offset-m1 s12">
                         <h2 class="contact-title text-gray center-align">Send us a message</h2>
                         <div class="row">
-                            <form id="gform" method="POST" class="col m8 offset-m2 s12"
+                            <form id="gform" method="POST" class="col s8 offset-s2 m8 offset-m2"
                                 data-email="from_email@example.com"
                                 action="https://script.google.com/macros/s/AKfycbymN37DuSZMOo3GwvmlydHegcJNMOFAIpGC3VT9vjonM8ckEsE/exec">
                                 <div class="row">
@@ -264,6 +307,7 @@
 
     <script src='../js/index.js'></script>
     <script src='../js/particles.js'></script>
+    <script src="../js/libs/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
 </body>
 
 </html>

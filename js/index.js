@@ -14,6 +14,15 @@ $(document).ready(function () {
 	$('.scrollspy').scrollSpy({
 		scrollOffset: 64
 	});
+
+	$("#owl-demo").owlCarousel({
+		loop: true,
+		dots: true,
+		items: 1,
+		autoplay: true,
+		autoplayTimeout: 5000,
+		autoplayHoverPause: true
+	});
 });
 
 (function () {
