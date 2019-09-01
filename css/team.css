@@ -307,13 +307,23 @@ canvas {
     margin-bottom: 10px;
 }
 
+.card-img-core-team {
+    height: 125px;
+    width: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
 .card-title {
     text-align: center;
     color: #4E4E4E;
     line-height: 1.25rem !important;
     margin-top: 20px !important;
     margin-bottom: 0 !important;
-    font-size: 1.25rem !important;
+    font-size: 1.05rem !important;
     font-weight: 700 !important;
 }
 
@@ -323,10 +333,9 @@ canvas {
     font-weight: 600;
 }
 
-.card-description {
-    text-align: center;
-    margin-top: 8px !important;
-    font-size: 1rem;
+.reveal-title {
+    text-align: left;
+    font-weight: 700 !important;
 }
 
 .team-lead {
@@ -366,16 +375,16 @@ canvas {
 @media only screen and (max-width: 600px) {
     .social-icons {
         font-size: 20px !important;
-        margin-left: 12px !important;
-        margin-right: 12px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
     .social-icons {
         font-size: 20px !important;
-        margin-left: 12px !important;
-        margin-right: 12px !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
     }
 
     .row .col {
@@ -386,8 +395,8 @@ canvas {
 @media only screen and (min-width: 993px) {
     .social-icons {
         font-size: 20px !important;
-        margin-left: 12px !important;
-        margin-right: 12px !important;
+        margin-left: 6px !important;
+        margin-right: 6px !important;
     }
 
     .row .col {
