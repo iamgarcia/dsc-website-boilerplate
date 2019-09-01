@@ -43,8 +43,8 @@ class EventsPage(webapp2.RequestHandler):
         
 class TeamPage(webapp2.RequestHandler):
     def get(self):
-        events_template = the_jinja_env.get_template('templates/events.html')
-        self.response.write(events_template.render())  # the response
+        team_template = the_jinja_env.get_template('templates/team.html')
+        self.response.write(team_template.render())  # the response
 
     def post(self):
         pass

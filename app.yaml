@@ -6,17 +6,21 @@ handlers:
 - url: /favicon
   static_dir: favicon
 
-- url: /css
-  static_dir: css
-
 - url: /images
   static_dir: images
+
+- url: /css
+  static_dir: css
 
 - url: /js
   static_dir: js
 
+- url: /libs
+  static_dir: libs
+
 - url: /.*
   script: main.app
+  secure: always
 
 libraries:
 - name: jinja2

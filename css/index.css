@@ -447,6 +447,11 @@ canvas {
     font-size: 2.25rem;
 }
 
+.contact-form {
+    padding-left: 45px!important;
+    padding-right: 45px!important;
+}
+
 /* label color */
 .input-field label {
     color: #9E9E9E !important;
