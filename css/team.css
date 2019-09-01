@@ -359,8 +359,40 @@ canvas {
 
 .social-icons {
     font-size: 20px !important;
-    margin-left: 12px !important;
-    margin-right: 12px !important;
+    margin-left: 6px !important;
+    margin-right: 6px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .social-icons {
+        font-size: 20px !important;
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .social-icons {
+        font-size: 20px !important;
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+    }
+
+    .row .col {
+        padding: 0 0!important;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .social-icons {
+        font-size: 20px !important;
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+    }
+
+    .row .col {
+        padding: 0 .75rem!important;
+    }
 }
 
 .card-action a {
@@ -389,7 +421,7 @@ canvas {
 
 /* ---- Contact ---- */
 .contact-section .row .col {
-    padding: 0 0 !important;
+    padding: 0 .75rem!important;
 }
 
 .contact-section {
