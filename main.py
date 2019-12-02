@@ -49,8 +49,17 @@ class TeamPage(webapp2.RequestHandler):
     def post(self):
         pass
 
+class JoinPage(webapp2.RequestHandler):
+    def get(self):
+        join_template = the_jinja_env.get_template('templates/join.html')
+        self.response.write(join_template.render())  # the response
+
+    def post(self):
+        pass
+
 app = webapp2.WSGIApplication([
     ('/', IndexPage),
     ('/events', EventsPage),
-    ('/team', TeamPage)
+    ('/team', TeamPage),
+    ('/join', JoinPage)
 ], debug=True)

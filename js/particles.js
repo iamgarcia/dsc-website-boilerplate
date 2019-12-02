@@ -1,7 +1,7 @@
 var particlesObj = {
     "particles": {
         "number": {
-            "value": 8,
+            "value": 7,
             "density": {
                 "enable": true,
                 "value_area": 1200

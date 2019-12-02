@@ -4,11 +4,9 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Developer Student Club CSUSM - Powered By Google Developers</title>
-    <!-- TODO: Combine this statement with the one below it
-        SRM Developer Student Club (DSC SRM) is a Google Developers program for SRM IST students to learn mobile and web development skills. -->
+    <title>DSC - California State University San Marcos</title>
     <meta name="description"
-        content="Google collaborates with university students who are passionate about growing developer communities and support them with starting student clubs on their campuses.">
+        content="Helping students bridge the gap between theory and practice. Supported by Google Developers.">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <!-- jQuery CDN and Popper.js CDN -->
@@ -81,10 +79,10 @@
                         <a class="nav-link" href="#AboutUs">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/events">Events</a>
+                        <a class="nav-link" href="/team">Our Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/team">Our Team</a>
+                        <a class="nav-link" href="#Gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Contact">Contact</a>
@@ -103,8 +101,7 @@
 
     <!-- SIDENAV START -->
     <ul class="sidenav" id="mobile-nav">
-        <li><a class="menu-items" href="#AboutUs">About Us</a>
-        </li>
+        <li><a class="menu-items" href="#AboutUs">About Us</a></li>
         <li><a class="menu-items" href="/events">Events</a></li>
         <li><a class="menu-items" href="/team">Our Team</a></li>
         <li><a class="menu-items" href="#Contact">Contact</a></li>
@@ -138,19 +135,11 @@
                 <div class="col s10 offset-s1 m10 offset-m1 l5">
                     <div class="about-text-area">
                         <h2 class="about-title text-white">About DSC</h2>
-                        <h4 class="description text-white">Developer Student Club (DSC) is a Google Developers
-                            program for university
-                            students to
-                            learn
-                            mobile and web development skills. The club will be open to any student, ranging from
-                            novice
-                            developers
-                            who are just starting, to advanced developers who want to further their skills. The club
-                            is
-                            intended as
-                            a space for students to try out new ideas and collaborate to solve mobile and web
-                            development
-                            problems.
+                        <h4 class="description text-white">Developer Student Clubs are university based community groups
+                            for students interested in Google developer technologies. Students from all undergraduate or
+                            graduate programs with an interest in growing as a developer are welcome. By joining a DSC,
+                            students grow their knowledge in a peer-to-peer learning environment and build solutions for
+                            local businesses and their community.
                         </h4>
                         <a class="waves-effect waves-light btn-large about-learn-more"
                             href="https://developers.google.com/community/dsc/">Learn More</a>
@@ -166,7 +155,8 @@
         <div class="what-we-do-section">
             <div class="container">
                 <h1 class="what-we-do-title">What we do?</h1>
-                <h3 class="what-we-do-description">Google Developer Clubs can take many forms - from just a few people getting together to watch some
+                <h3 class="what-we-do-description">Google Developer Clubs can take many forms - from just a few people
+                    getting together to watch some
                     videos, to large gatherings with demos, tech talks, hackathons and conferences. We work on various
                     technical domains and try to make use of Google Technologies to empower the audience around us.
                 </h3>
@@ -199,7 +189,7 @@
         <!-- DOMAINS END -->
 
         <!-- GALLERY START -->
-        <div class="gallery-section">
+        <div id="Gallery" class="gallery-section scrollspy">
             <div class="container carousel-container">
                 <div id="owl-demo" class="owl-carousel owl-theme">
                     <div class="item">
@@ -226,39 +216,12 @@
         <!-- GALLERY END -->
 
         <!-- CONTACT START -->
-        <div id="Contact" class="contact-section scrollspy">
-            <div class="container contact-text-area">
-                <div class="row">
-                    <div class="col m10 offset-m1 s12">
-                        <h2 class="contact-title text-gray center-align">Send us a message</h2>
-                        <div class="row">
-                            <form id="gform" method="POST" class="col s8 offset-s2 m8 offset-m2"
-                                data-email="from_email@example.com"
-                                action="https://script.google.com/macros/s/AKfycbymN37DuSZMOo3GwvmlydHegcJNMOFAIpGC3VT9vjonM8ckEsE/exec">
-                                <div class="row contact-form">
-                                    <div class="input-field col s12">
-                                        <input id="name" name="name" type="text" required>
-                                        <label for="name">Name</label>
-                                    </div>
-                                    <div class="input-field col s12">
-                                        <input id="email" name="email" type="email" class="form-input" required>
-                                        <label for="email">Email</label>
-                                    </div>
-                                    <div class="input-field col s12">
-                                        <input id="subject" name="subject" type="text" class="form-input" required>
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                    <div class="input-field col s12">
-                                        <textarea id="message" name="message" class="materialize-textarea"
-                                            required></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                    <p class="center-align"><input class="btn contact-submit" type="submit"
-                                            value="Submit"></input></p>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+        <div id="Contact" class="join-section scrollspy">
+            <div class="container">
+                <div class="contact-form">
+                    <iframe class="contact-form-center"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSfGdup4SHwcT5cq7rKZczN6t8dr7y5GJ8YUc8GpDG3nH9bSJw/viewform?embedded=true"
+                        width="640" height="967" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
         </div>
